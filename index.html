@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple calculator</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Project start  -->
+
+    <!-- container start  -->
+    <div class="container">
+        <h1 class="header-title">Multiple Converter</h1>
+        <div class="divider"></div>
+
+        <div class="catagory-warp">
+
+            <label class="lead" for="catagori-select">Select Category</label>
+
+            <!-- select start  -->
+
+            <select class="text-input" id="catagori-select">
+                <option value="mass">Mass</option>
+                <option value="length">Length</option>
+                <option value="area">Area</option>
+            </select>
+             <!-- select End -->        
+        </div>
+        <div class="input-group-warp">
+            <!-- left  start -->
+            <div>
+                <input type="text" class="text-input" id="left-input">
+                <select id="left-select" class="text-input">
+                    <option value="KM">Kilometter</option>
+                    <option value="M">Metter</option>
+                    <option value="CM">CentiMetter</option>
+                </select>
+            </div>
+            <!-- left  End -->
+
+             <!-- middle  start -->
+             <div class="equal">
+                =
+             </div>
+             <!-- middle  End -->
+
+              <!-- right  start -->
+            <div>
+                <input type="text" class="text-input" id="right-input">
+                <select id="right-select" class="text-input">
+                    <!-- <option value="KM">Kilometter</option>
+                    <option value="M">Metter</option>
+                    <option value="CM">CentiMetter</option> -->
+                </select>
+            </div>
+            <!-- right  End -->
+
+        </div>
+        <!-- formula srat  -->
+        <div class="formula-wrap">
+            <h3>Formula</h3>
+            <p id="formula-text">Formula Text</p>
+        </div>
+        <!-- formula End -->
+    </div>
+    <!-- container End -->
+
+    <!-- Project css -->
+
+    <!-- js -->
+    <script src="script.js"></script>
+</body>
+</html>
